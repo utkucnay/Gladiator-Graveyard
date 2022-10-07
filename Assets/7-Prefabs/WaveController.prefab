@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1219906906810789593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1219906906810789594}
+  - component: {fileID: 1219906906810789595}
+  m_Layer: 0
+  m_Name: WaveController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1219906906810789594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219906906810789593}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1219906906810789595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219906906810789593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ddb0e4de0d3bb48a477b6eeb3a99eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mobs:
+  - Object: {fileID: 2440448970079076840, guid: 865b35d248b999c47aa4f7b7667bb5ef, type: 3}
+    mobType: 0
+  - Object: {fileID: 1208692067795446178, guid: 54580390e05e9624fa71ce875c72a18c, type: 3}
+    mobType: 1
+  - Object: {fileID: 2525135758341403285, guid: 587b188ac2b88ac44a5e67d32c496a31, type: 3}
+    mobType: 2
+  Boss:
+  - Object: {fileID: 0}
+    mobType: 0
+  SpawnLoc:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WaveDelayTime: 2
+  waves:
+  - waves:
+    - mobAndCounts:
+      - mob: 0
+        number: 1
+      difficulty: 2
+    - mobAndCounts:
+      - mob: 0
+        number: 1
+      difficulty: 5
+    categoryID: 0
+  - waves:
+    - mobAndCounts:
+      - mob: 0
+        number: 2
+      difficulty: 2
+    - mobAndCounts:
+      - mob: 1
+        number: 1
+      - mob: 0
+        number: 2
+      difficulty: 3
+    - mobAndCounts:
+      - mob: 0
+        number: 1
+      - mob: 1
+        number: 2
+      difficulty: 3
+    - mobAndCounts:
+      - mob: 0
+        number: 2
+      - mob: 1
+        number: 3
+      difficulty: 6
+    - mobAndCounts:
+      - mob: 1
+        number: 4
+      - mob: 0
+        number: 1
+      difficulty: 6
+    - mobAndCounts:
+      - mob: 0
+        number: 3
+      - mob: 1
+        number: 3
+      difficulty: 8
+    categoryID: 2
+  - waves:
+    - mobAndCounts:
+      - mob: 2
+        number: 2
+      difficulty: 3
+    - mobAndCounts:
+      - mob: 0
+        number: 2
+      - mob: 1
+        number: 1
+      - mob: 2
+        number: 1
+      difficulty: 5
+    - mobAndCounts:
+      - mob: 2
+        number: 1
+      - mob: 1
+        number: 3
+      difficulty: 5
+    - mobAndCounts:
+      - mob: 2
+        number: 1
+      - mob: 1
+        number: 4
+      - mob: 0
+        number: 2
+      difficulty: 9
+    categoryID: 2
+  arenaMatchSystems:
+  - categoryID: 0
+    totalDifficulty: 5
+    totalWave: 1
+    Waves: []
+  - categoryID: 1
+    totalDifficulty: 5
+    totalWave: 2
+    Waves: []
+  - categoryID: 1
+    totalDifficulty: 9
+    totalWave: 3
+    Waves: []
+  - categoryID: 2
+    totalDifficulty: 11
+    totalWave: 2
+    Waves: []
+  - categoryID: 2
+    totalDifficulty: 18
+    totalWave: 3
+    Waves: []
+  waveStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  waveEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  ArenaMatchStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  ArenaMatchEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  trash: {fileID: 0}
+  closeWave: 0

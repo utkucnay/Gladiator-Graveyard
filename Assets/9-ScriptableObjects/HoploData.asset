@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864ac66b0bd9bda45861e7877c19fff3, type: 3}
+  m_Name: HoploData
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  poiseAddbySecond: 2
+  maksPoise: 50
+  poiseRecoverTime: 3
+  Damage: 0
+  PushAmount: 0
+  ReduceStamina: 0
+  MaxAttackDelay: 0
+  MinAttackDelay: 0
+  AttackSpeed: 0
+  AttackDashRatio: 0
+  MinAttackDash: 0
+  MaxAttackDash: 0
+  Speed: 4
+  LookDelay: 0.2
+  Glory: 20
+  shrinkEffects: []
+  CharReciveDamageColor: {r: 1, g: 0.25882354, b: 0.25882354, a: 1}
+  CharReciveDamageTimeMulti: 1
+  CharReciveColorTime: 0.25
+  CharReciveColorMultiplier: 1
+  pushMultiplier: 0.7
+  pushTime: 0.1
+  pushEase: 9
+  deathPushMultiplier: 0
+  deathPushTime: 0
+  deathPushEase: 0
+  SmallSwordDamage: 10
+  SmallSwordPushAmount: 0.2
+  SmallSwordReduceStamina: 20
+  SmallSwordMaxAttackDelay: 1
+  SmallSwordMinAttackDelay: 0.5
+  SmallSwordAttackSpeed: 1
+  SmallSwordAttackDashRatio: 0.2
+  SmallSwordMinAttackDash: 0.3
+  SmallSwordMaxAttackDash: 1
+  ThrowSpearDamage: 20
+  ThrowSpearPushAmount: 1
+  ThrowSpearReduceStamina: 25
+  ThrowSpearMaxAttackDelay: 2.5
+  ThrowSpearMinAttackDelay: 1.5
+  ThrowSpearSpeedMulti: 2
+  Spear: {fileID: 7074096684111748030, guid: 830bf9c885078c3428d3a9e6e1a829b9, type: 3}
+  SpearDamage: 15
+  SpearPushAmount: 2
+  SpearReduceStamina: 20
+  SpearMaxAttackDelay: 1.5
+  SpearMinAttackDelay: 0.5
+  SpearAttackSpeed: 1
+  SpearAttackDashRatio: 0.6
+  SpearMinAttackDash: 0.5
+  SpearMaxAttackDash: 3
+  SpearAttackDashTimeMulti: 1
+  ShieldEffectTime: 0.2
+  ShieldColorSouthMult: 0.75
+  ShieldColorNorthMult: 1.25
+  ShieldReciveDamageColor: {r: 0, g: 0, b: 1, a: 1}
+  pushShieldMultiplier: 0.6
+  ShieldOpenIdleAnimSpeed: 0.2
+  DefendChance: 35
+  minDefTime: 1
+  maxDefTime: 4
+  AttackChance: 65
+  MoveTowordsPlayerChance: 50
+  minMoveTowordsPlayer: 2
+  maxMoveTowordsPlayer: 4
+  MoveWaypointChance: 50
+  minWaypoint: 1
+  maxWaypoint: 3
+  longMin: 2
+  longMax: 3
+  shortMin: 0
+  shortMax: 1
+  ThrowSpearChance: 40
+  ThrowSpearAngle: 20
+  ThrowSpearFailMinTime: 5
+  ThrowSpearFailMaxTime: 6

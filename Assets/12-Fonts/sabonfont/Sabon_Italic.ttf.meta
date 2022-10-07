@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: de5c6fe1646fa414cb71e09d4a0a11ed
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Sabon
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3ea45e8f970f062458eb31ee9252414a, type: 3}
+  - {fileID: 12800000, guid: b792fe8e11d0a5b48ad47488cb1a239a, type: 3}
+  - {fileID: 12800000, guid: 60b2d5801ca829a44945477224c307e8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

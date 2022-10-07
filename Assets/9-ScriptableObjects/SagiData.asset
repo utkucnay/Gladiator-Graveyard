@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62efb350f4174fa49863644c2a7c24e3, type: 3}
+  m_Name: SagiData
+  m_EditorClassIdentifier: 
+  maxHealth: 70
+  poiseAddbySecond: 2
+  maksPoise: 30
+  poiseRecoverTime: 3
+  Damage: 8
+  PushAmount: 0.25
+  ReduceStamina: 10
+  MaxAttackDelay: 1.5
+  MinAttackDelay: 0.8
+  AttackSpeed: 0
+  AttackDashRatio: 0
+  MinAttackDash: 0
+  MaxAttackDash: 0
+  Speed: 3.2
+  LookDelay: 1
+  Glory: 15
+  shrinkEffects:
+  - shrinkEffectX: 1.08
+    shrinkEffectY: 1.12
+    ShrinkEffectTimeMulti: 1
+  - shrinkEffectX: 1.08
+    shrinkEffectY: 1.12
+    ShrinkEffectTimeMulti: 1
+  - shrinkEffectX: 1.07
+    shrinkEffectY: 1.1
+    ShrinkEffectTimeMulti: 1
+  CharReciveDamageColor: {r: 1, g: 0.25943398, b: 0.25943398, a: 1}
+  CharReciveDamageTimeMulti: 1
+  CharReciveColorTime: 0.25
+  CharReciveColorMultiplier: 1
+  pushMultiplier: 0.7
+  pushTime: 0.1
+  pushEase: 9
+  deathPushMultiplier: 1
+  deathPushTime: 0.3
+  deathPushEase: 9
+  Arrow: {fileID: 1883572363284459485, guid: b6fd7ff122bb46e45aba726cb046d5c7, type: 3}
+  ArrowSpeedMulti: 1.8
+  AttackRange: 15
+  AttackChance: 60
+  MoveWaypointChance: 40
+  minWaypoint: 1
+  maxWaypoint: 3
+  minRadius: 8
+  maxRadius: 12.5
+  minAngle: 15
+  maxAngle: 20
+  RunFromPlayerSpeed: 3
+  RunFromPlayerDrawSpeed: 1.5
