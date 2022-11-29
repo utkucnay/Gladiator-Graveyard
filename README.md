@@ -5,3 +5,5 @@ Me and my game jam friends made this game for 6 months.
 - I create AI system and coded.
 - I made sprite effect.
 - Some gameplay future(change color when take hit, parry system, Card system).
+
+I asked my friends if it was okay for me to post the source code.
