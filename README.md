@@ -9,4 +9,5 @@ Me and my game jam friends made this game for 6 months.
 # AI System
 - Action Based Decision Tree System. We decide an action, whether the player is nearby or for special events.
 
-I asked my friends if it was okay for me to post the source code.
+They will switch the project from 2d to 3d and I decided to exit the project. 
+I asked my friends if it was okay for me to post the source code. 
