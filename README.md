@@ -1,16 +1,13 @@
 # Gladiator-Graveyard
-Me and my game jam friends made this game for 6 months.
+I spent the last 6 months working on a game with my friends.
 
 # What am I doing
-- I create AI system and coded.
-- I made sprite effect.
-- Some gameplay feature(change color when take hit, parry system, Card system).
+- I was in charge of creating the AI system and coding it, as well as creating sprite effects and some gameplay features (such as the change in color when taking a hit, the parry system, and the card system).
 
 # AI System
-- Action Based Decision Tree System. We decide an action, whether the player is nearby or for special events.
+- The AI system uses an action-based decision tree, which allows the AI to make decisions based on whether the player is nearby or for special events.
 
-They will switch the project from 2d to 3d and I decided to exit the project. 
-I asked my friends if it was okay for me to post the source code. 
+My friends have decided to switch the project from 2D to 3D, so I have decided to exit the project. I asked my friends if it was okay for me to post the source code online.
 
 
 
